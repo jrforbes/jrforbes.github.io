@@ -1,34 +1,44 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"korotkine":
+  - firstname: ["Vassili", "V."]
+    url: https://vkorotkine.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"cohen":
+  - firstname: ["Mitchell", "M."]
+    url: https://mitchellcohen3.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"shalaby":
+  - firstname: ["Mohammed Ayman", "Mohammed", "M."]
+    url: https://shalabymhd.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"cossette":
+  - firstname: ["Charles Champagne", "Charles", "Charles C.", "C."]
+    url: https://charlescossette.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"le ny":
+  - firstname: ["Jerome", "Jérôme", "J."]
+    url: https://www.professeurs.polymtl.ca/jerome.le-ny/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"moalemi":
+  - firstname: ["Sepehr", "S."]
+    url: https://sepehr-moalemi.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"de Ruiter":
+  - firstname: ["Anton", "Anton H. J.", "A."]
+    url: https://www.torontomu.ca/aerospace/people/faculty/anton-de-ruiter/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"barfoot":
+  - firstname: ["Timothy", "Timothy David", "T. D.", "T."]
+    url: https://asrl.utias.utoronto.ca/~tdb/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"kouw":
+  - firstname: ["Wouter", "W."]
+    url: https://wmkouw.github.io/
+
+"paull":
+  - firstname: ["Liam", "L."]
+    url: https://liampaull.ca/
+
+"dumbgen":
+  - firstname: ["Frederike", "F."]
+    url: https://duembgen.github.io/
+    
