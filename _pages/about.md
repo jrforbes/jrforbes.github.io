@@ -6,7 +6,7 @@ subtitle: <a href='https://www.mcgill.ca/mecheng/'>Department of Mechanical Engi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>MDENG 158</p>
