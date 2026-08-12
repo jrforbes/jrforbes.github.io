@@ -6,7 +6,7 @@ subtitle: <a href='https://www.mcgill.ca/mecheng/'>Department of Mechanical Engi
 
 profile:
   align: right
-  image: me.jpg
+  image: me2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Macdonald Engineering Building, Room 158</p>
