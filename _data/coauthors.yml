@@ -22,8 +22,8 @@
   - firstname: ["Sepehr", "S."]
     url: https://sepehr-moalemi.com/
 
-"de Ruiter":
-  - firstname: ["Anton", "Anton H. J.", "A."]
+"de ruiter":
+  - firstname: ["Anton"]
     url: https://www.torontomu.ca/aerospace/people/faculty/anton-de-ruiter/
 
 "barfoot":
@@ -41,4 +41,36 @@
 "dumbgen":
   - firstname: ["Frederike", "F."]
     url: https://duembgen.github.io/
+
+"adams":
+  - firstname: ["Timothy Everett", "T.", "T. E."]
+    url: https://timeverettadams.github.io
+
+"caverly":
+  - firstname: ["Ryan James", "R.", "R. J."]
+    url: https://cse.umn.edu/aem/ryan-caverly
+
+"bridgeman":
+  - firstname: ["Leila Jasmine", "L.", "L. J."]
+    url: https://mems.duke.edu/people/leila-bridgeman/
+
+"sedal":
+  - firstname: ["Audrey"]
+    url: https://www.mcgill.ca/mecheng/audrey-sedal
+
+"seiler":
+  - firstname: ["Peter"]
+    url: https://seiler.engin.umich.edu/
+
+"gupta":
+  - firstname: ["Vijay"]
+    url: https://engineering.purdue.edu/Vijay-Gupta
+
+"dahdah":
+  - firstname: ["Steven"]
+    url: https://github.com/sdahdah
+
+  - firstname: ["Nicholas"]
+    url: https://www.linkedin.com/in/nicholas-dahdah/
+
     

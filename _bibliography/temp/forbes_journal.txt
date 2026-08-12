@@ -1,4 +1,4 @@
-@ARTICLE{paper_shalaby_etal_miluv_2026,
+@ARTICLE{paper_shalaby_etal_miluv_2024,
   AUTHOR =       "Mohammed Ayman Shalaby and Syed Shabbir Ahmed and Nicholas Dahdah and Charles Champagne Cossette and Jerome {Le Ny} and James Richard Forbes",
   TITLE =        "{MILUV: A Multi-UAV Indoor Localization dataset with UWB and Vision}",
   JOURNAL =      "International Journal of Robotics Research",
@@ -7,13 +7,11 @@
   number =       {},
   pages =        {},
   month =        "",
-  note =         {},
+  note =         {To appear.},
   abstract =     {},
   keywords =     {},
   source =       {},
   arxiv =        {2504.14376},
-  preview =      {paper_shalaby_etal_miluv_2026.png},
-  code =         {https://github.com/decargroup/miluv},
 }
 
 @ARTICLE{paper_lortie_dahdah_forbes_fbko_2026,
@@ -30,7 +28,6 @@
   keywords =     {},
   source =       {},
   arxiv =        {2403.10623},
-  preview =      {paper_lortie_dahdah_forbes_fbko_2026.png},
 }
 
 @ARTICLE{paper_Stirling_et_al_RAL_2026,
@@ -64,7 +61,6 @@
   keywords =     {},
   source =       {},
   arxiv =        {2509.07201},
-  preview =      {input_output_observer_population.png},
   code =         {https://github.com/decargroup/input_output_observer_population},
 }
 
@@ -81,7 +77,6 @@
   abstract =     {},
   keywords =     {},
   source =       {},
-  preview =      {paper_Dahdah_Forbes_RSPA_2022_0.png},
   code =         {https://github.com/decargroup/pykoop},
 }
 
@@ -302,7 +297,7 @@
 }
 
 @ARTICLE{paper_Shalaby_etal_TRO_2023,
-  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and Jerome {Le Ny} and James Richard Forbes",
+  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and Jerome {Le~Ny} and James Richard Forbes",
   TITLE =        "{Multi-Robot Relative Pose Estimation and IMU Preintegration Using Passive UWB Transceivers}",
   JOURNAL =      "IEEE Transactions on Robotics",
   YEAR =         {2024},
@@ -462,7 +457,6 @@
   keywords =     {},
   source =       {},
   arxiv =        {2110.09658},
-  preview =      {paper_Dahdah_Forbes_RSPA_2022_1.png},
   code =         {https://github.com/decargroup/system_norm_koopman},
 }
 
@@ -596,7 +590,7 @@
 }
 
 @ARTICLE{paper_Shalaby_et_al_cascade_RAL2021,
-  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and Jerome {Le Ny} and James Richard Forbes",
+  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and Jerome {Le~Ny} and James Richard Forbes",
   TITLE =        "{Cascaded Filtering Using the Sigma Point Transformation}",
   JOURNAL =      "IEEE Robotics and Automation Letters",
   YEAR =         {2021},
@@ -613,7 +607,7 @@
 % 1,946 papers were accepted total. Let's assume half of them are from students. That's 973 student papers. 68 of them are selected for candidacy. Putting us in the 7%
 
 @ARTICLE{paper_Shalaby_et_al_two_tag_RAL2021,
-  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and James Richard Forbes and Jerome {Le Ny}",
+  AUTHOR =       "Mohammed Ayman Shalaby and Charles Champagne Cossette and James Richard Forbes and Jerome {Le~Ny}",
   TITLE =        "{Relative Position Estimation in Multi-Agent Systems Using Attitude-Coupled Range Measurements}",
   JOURNAL =      "IEEE Robotics and Automation Letters",
   YEAR =         {2021},
@@ -629,7 +623,7 @@
 }
 
 @ARTICLE{paper_Cossette_et_al_RAL2021,
-  AUTHOR =       "Charles Champagne Cossette and Mohammed Ayman Shalaby and David Saussi\'{e} and James Richard Forbes and Jerome {Le Ny}",
+  AUTHOR =       "Charles Champagne Cossette and Mohammed Ayman Shalaby and David Saussi\'{e} and James Richard Forbes and Jerome {Le~Ny}",
   TITLE =        "{Relative Position Estimation Between Two UWB Devices with IMUs}",
   JOURNAL =      "IEEE Robotics and Automation Letters",
   YEAR =         {2021},
@@ -963,7 +957,7 @@
 
 
 @ARTICLE{paper_de_Ruiter_Forbes_Demjanenko,
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes and Maksims Demjanenko",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes and Maksims Demjanenko",
   TITLE =        "{On Constrained Kalman Filtering}",
   JOURNAL =      "AIAA Journal of Guidance, Control, and Dynamics",
   YEAR =         {2018},
@@ -1069,7 +1063,7 @@
 }
 
 @ARTICLE{paper_de_Ruiter_Forbes_CT_O(n),
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes",
   TITLE =        "{Continuous-Time Kalman Filtering on the Orthogonal Group $O(n)$}",
   JOURNAL =      "International Journal of Robust and Nonlinear Control",
   YEAR =         {2017},
@@ -1144,7 +1138,7 @@
 }
 
 @ARTICLE{paper_de_Ruiter_Forbes_DTSO(n)_filtering,
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes",
   TITLE =        "{Discrete-Time $SO(n)$-Constrained Kalman Filtering}",
   JOURNAL =      "AIAA Journal of Guidance Control and Dynamics",
   YEAR =         {2017},
@@ -1336,7 +1330,7 @@
 }
 
 @ARTICLE{paper_deRuiter_Forbes_JAS_gen_euler,
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes",
   TITLE =        "{Generalized Euler Sequences Revisited}",
   JOURNAL =      "Journal of the Astronautical Sciences",
   YEAR =         {2015},
@@ -1446,7 +1440,7 @@
 }
 
 @ARTICLE{paper_de_Ruiter_Forbes_JAS_SOn_LMI,
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes",
   TITLE =        "{On the Solution of Wahba's Problem on $SO(n)$}",
   JOURNAL =      "Journal of the Astronautical Sciences",
   YEAR =         {2015},
@@ -1461,7 +1455,7 @@
 }
 
 @ARTICLE{paper_de_Ruiter_Forbes_JGCD_SO3_LMI,
-  AUTHOR =       "James Richard Forbes and Anton {de Ruiter}",
+  AUTHOR =       "James Richard Forbes and Anton {de~Ruiter}",
   TITLE =        "{An LMI-Based Solution to Wahba's Problem}",
   JOURNAL =      "AIAA Journal of Guidance, Control, and Dynamics",
   YEAR =         {2015},
@@ -1525,7 +1519,7 @@
 }
 
 @ARTICLE{paper_Forbes_de_Ruiter_norm_cont_2013,
-  AUTHOR =       "James Richard Forbes and Anton {de Ruiter} and David Evan Zlotnik",
+  AUTHOR =       "James Richard Forbes and Anton {de~Ruiter} and David Evan Zlotnik",
   TITLE =        "{Continuous-Time Norm-Constrained Kalman Filtering}",
   JOURNAL =      "Automatica",
   YEAR =         {2014},
@@ -1586,7 +1580,7 @@
 } 
 
 @ARTICLE{paper_de_Ruiter_Forbes_JAM_2014,
-  AUTHOR =       "Anton {de Ruiter} and James Richard Forbes",
+  AUTHOR =       "Anton {de~Ruiter} and James Richard Forbes",
   TITLE =        "{General Identities for Parameterizations of $SO(3)$ with Applications}",
   JOURNAL =      "ASME Journal of Applied Mechanics",
   YEAR =         {2014},
@@ -1678,7 +1672,7 @@
 }
 
 @ARTICLE{paper_Findlay_JGCD_2013,
-  AUTHOR =       "Everett~J~Findlay and Anton {de Ruiter} and James Richard Forbes and Hugh~H~T~Liu and Christopher John Damaren and James Lee",
+  AUTHOR =       "Everett~J~Findlay and Anton {de~Ruiter} and James Richard Forbes and Hugh~H~T~Liu and Christopher John Damaren and James Lee",
   TITLE =        "{Investigation of Active Vibration Suppression of a Flexible Satellite Using Magnetic Attitude Control}",
   JOURNAL =      "AIAA Journal of Guidance, Control, and Dynamics",
   YEAR =         {2013},

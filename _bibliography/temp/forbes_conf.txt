@@ -1335,7 +1335,7 @@ Measurements}",
 }
 
 @ARTICLE{paper_findly_GNC_2011,
-  AUTHOR =       "Everett~J.~Findlay* and James Richard Forbes and Hugh~H.~T.~Liu and Anton {de Ruiter} and Christopher John Damaren and James Lee",
+  AUTHOR =       "Everett~J.~Findlay* and James Richard Forbes and Hugh~H.~T.~Liu and Anton {de~Ruiter} and Christopher John Damaren and James Lee",
   TITLE =        "{Investigation of Active Vibration Suppression of a Flexible Satellite Using Magnetic Attitude Control}",
   JOURNAL =      "AIAA Guidance, Navigation, and Control Conference, Portland, OR, USA, August 8-11",
   year = 				 {2011},
