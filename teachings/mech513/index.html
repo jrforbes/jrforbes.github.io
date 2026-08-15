@@ -1,0 +1,135 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> MECH 513 - Control Systems | James Richard Forbes </title> <meta name="author" content="James Richard Forbes"> <meta name="description" content="State-space modelling and related linear algebra. Controllability and observability of linear time-invariant systems and corresponding tests, system realizations. Stability including bounded-Input-Bounded-Output (BIBO), internal, and Lyapunov stability. Linear state feedback control, state observers, optimal control, optimal estimation, and robust control."> <meta name="keywords" content="Robotics. Navigation. Control Systems."> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%87%A8%F0%9F%87%A6&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://jrforbes.github.io/teachings/mech513/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link rel="stylesheet" href="/assets/al_email_protect/css/email-protect.css"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">James</span> Richard Forbes </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">MECH 513 - Control Systems</h1> <p class="post-description">State-space modelling and related linear algebra. Controllability and observability of linear time-invariant systems and corresponding tests, system realizations. Stability including bounded-Input-Bounded-Output (BIBO), internal, and Lyapunov stability. Linear state feedback control, state observers, optimal control, optimal estimation, and robust control.</p> </header> <article> <div class="course"> <div class="course-info"> <p><strong>Instructor:</strong> Prof. James Richard Forbes</p> </div> <h4 id="course-overview">Course Overview</h4> <p>MECH 513 introduces modern control theory using state-space methods. Students develop mathematical tools for the analysis and synthesis of dynamical systems, with particular emphasis on controllability, observability, stability analysis, state feedback control, state estimation, optimal control, and robust control.</p> <p>Topics include:</p> <ul> <li>State-space modelling and system realizations</li> <li>Lyapunov stability theory</li> <li>Linear matrix inequalities (LMIs)</li> <li>Controllability and observability</li> <li>State-feedback control and pole placement</li> <li>State observers</li> <li>Optimal control and estimation</li> <li>Linear Quadratic Regulator (LQR)</li> <li>Linear Quadratic Gaussian (LQG)</li> <li>H₂ and H∞ control</li> <li>Robust stability and robust performance</li> </ul> <h4 id="prerequisite-and-corequisite-courses">Prerequisite and Corequisite Courses</h4> <p>Students are expected to be comfortable with:</p> <ul> <li>Calculus</li> <li>Differential equations</li> <li>Linear algebra</li> <li>Python programming</li> </ul> <h5 id="undergraduate-prerequisite-courses">Undergraduate Prerequisite Courses</h5> <ul> <li>MECH 412 or MECH 419</li> </ul> <h5 id="graduate-students">Graduate Students</h5> <p>No formal prerequisite.</p> <h4 id="python-resources">Python Resources</h4> <p>The course makes extensive use of Python, the python-control package, and CVXPY.</p> <p>Useful resources:</p> <ul> <li><a href="https://docs.python.org/3/tutorial/" rel="external nofollow noopener" target="_blank">Python Tutorial</a></li> <li><a href="https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html" rel="external nofollow noopener" target="_blank">Python Numerical Methods</a></li> <li><a href="https://github.com/rougier/numpy-100" rel="external nofollow noopener" target="_blank">NumPy 100 Exercises</a></li> <li><a href="https://scipy-lectures.org/intro/" rel="external nofollow noopener" target="_blank">SciPy Lectures</a></li> <li><a href="https://python-control.readthedocs.io/en/0.9.4/" rel="external nofollow noopener" target="_blank">Python Control Library</a></li> <li><a href="https://www.cvxpy.org/" rel="external nofollow noopener" target="_blank">cvxpy</a></li> <li><a href="https://github.com/jrforbes/mech_412_code" rel="external nofollow noopener" target="_blank">MECH 412 Code Repository</a></li> <li><a href="https://github.com/jrforbes/mech_513_code" rel="external nofollow noopener" target="_blank">MECH 513 Code Repository</a></li> </ul> <h4 id="learning-outcomes">Learning Outcomes</h4> <p>By the end of the course, students will be able to:</p> <ul> <li>Use linear algebra tools to manipulate and analyze linear dynamical systems.</li> <li>Assess whether a system is controllable and observable, and understand the implications of such assessments.</li> <li>Design state-feedback controllers and state observers using state-space methods.</li> <li>Formulate and solve optimal control and estimation problems.</li> <li>Analyze uncertainty, robustness, and performance of feedback control systems.</li> <li>Apply modern computational tools to control-system analysis and design.</li> </ul> <h4 id="textbooks">Textbooks</h4> <p>There is no required textbook. However, lectures are based on the following references.</p> <ul> <li>S. Skogestad and I. Postlethwaite, <em>Multivariable Feedback Control: Analysis and Design</em>, 2nd ed. Hoboken, NJ: John Wiley &amp; Sons, Inc., 2005.</li> <li>J. Hespanha, <em>Linear Systems Theory</em>. Princeton, NJ: Princeton University Press, 2009.</li> <li>R. L. Williams and D. A. Lawrence, <em>Linear State-Space Control Systems</em>. Hoboken, NJ: John Wiley &amp; Sons, Inc., 2007.</li> <li>K. Zhou and J. C. Doyle, <em>Essentials of Robust Control</em>. Upper Saddle River, NJ: Prentice Hall, 1998.</li> </ul> <h4 id="additional-resources">Additional Resources</h4> <ul> <li><a href="https://github.com/randybeard/controlbook_public" rel="external nofollow noopener" target="_blank">Randy Beard Control Book</a></li> <li><a href="http://ctms.engin.umich.edu/CTMS" rel="external nofollow noopener" target="_blank">University of Michigan Control Tutorials (CTMS)</a></li> </ul> <h2>Schedule</h2> <table class="table table-sm table-responsive"> <thead> <tr> <th>Week</th> <th>Date</th> <th>Topic</th> <th>Materials</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>Sep/Jan</td> <td> <strong>State-space and Transfer Matrix Representations</strong> <div class="schedule-description"> <p>State-space and transfer function/matrix forms, linearization, and frequency response.</p> </div> </td> <td> </td> </tr> <tr> <td>2</td> <td>Sep/Jan</td> <td> <strong>Lyapunov Stability Theory</strong> <div class="schedule-description"> <p>Lyapunov and asymptotic stability.</p> </div> </td> <td> </td> </tr> <tr> <td>3</td> <td>Sep/Jan</td> <td> <strong>Lyapunov Equations</strong> <div class="schedule-description"> <p>Lyapunov equations and their application to stability analysis.</p> </div> </td> <td> </td> </tr> <tr> <td>4</td> <td>Sep/Jan</td> <td> <strong>Linear Matrix Inequalities</strong> <div class="schedule-description"> <p>Introduction to LMIs and control-system applications.</p> </div> </td> <td> </td> </tr> <tr> <td>5</td> <td>Oct/Feb</td> <td> <strong>Controllability</strong> <div class="schedule-description"> <p>Controllability concepts, tests, and implications.</p> </div> </td> <td> </td> </tr> <tr> <td>6</td> <td>Oct/Feb</td> <td> <strong>Observability</strong> <div class="schedule-description"> <p>Observability concepts, tests, and system realizations.</p> </div> </td> <td> </td> </tr> <tr> <td>7</td> <td>Oct/Feb</td> <td> <strong>State Feedback Control</strong> <div class="schedule-description"> <p>Static full-state feedback and pole placement.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/mech513/7a_FSF_ctrb_stab_2026_08_15.pdf" target="_blank">Static Full-State Feedback</a> </li> </ul> </td> </tr> <tr> <td>8</td> <td>Oct/Feb</td> <td> <strong>State Observers</strong> <div class="schedule-description"> <p>Full-order and reduced-order observer design.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/mech513/7b_observer_2026_08_15.pdf" target="_blank">Observers</a> </li> </ul> </td> </tr> <tr> <td>9</td> <td>Nov/Mar</td> <td> <strong>Observer-Based Controllers</strong> <div class="schedule-description"> <p>Separation principle and output-feedback control.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/mech513/7c_obsv_based_ctrl_2026_08_15.pdf" target="_blank">Observer-Based Controllers</a> </li> </ul> </td> </tr> <tr> <td>10</td> <td>Nov/Mar</td> <td> <strong>Optimal Control</strong> <div class="schedule-description"> <p>Problem formulation, linear quadratic regulator (LQR) design.</p> </div> </td> <td> </td> </tr> <tr> <td>11</td> <td>Nov/Mar</td> <td> <strong>Optimal Estimation</strong> <div class="schedule-description"> <p>Linear quadratic estimation (LQE).</p> </div> </td> <td> </td> </tr> <tr> <td>12</td> <td>Nov/Mar</td> <td> <strong>H₂ and H∞ Control</strong> <div class="schedule-description"> <p>Norms, full-state feedback control, and estimation.</p> </div> </td> <td> <ul class="schedule-materials"> <li> <a href="/assets/pdf/mech513/10_H2_Hinf_sys_norms_2026_08_15.pdf" target="_blank">H₂ and H∞ Norms</a> </li> <li> <a href="/assets/pdf/mech513/11a_H2_LMI_2026_08_15.pdf" target="_blank">H₂ Control via LMIs</a> </li> <li> <a href="/assets/pdf/mech412/11b_Hinf_LMI_2026_08_15.pdf" target="_blank">H∞ Control via LMIs</a> </li> </ul> </td> </tr> <tr> <td>13</td> <td>Dec/Apr</td> <td> <strong>Robust Control</strong> <div class="schedule-description"> <p>Uncertainty modelling, robust stability, and robust performance.</p> </div> </td> <td> </td> </tr> </tbody> </table> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 James Richard Forbes. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Journal and conference papers in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses currently and previously taught at McGill University.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-i-am-looking-forward-to-icra-in-vienna-austria-next-week-robot",
+          title: 'I am looking forward to ICRA in Vienna, Austria, next week! <img class="emoji" title=":robot:" alt=":robot:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f916.png" height="20" width="20">',
+          description: "",
+          section: "News",},{id: "news-last-week-i-was-in-reykjavík-iceland-attending-the-european-control-conference-it-was-great-to-reconnect-with-colleagues-and-visit-such-a-beautiful-country-smile",
+          title: 'Last week I was in Reykjavík, Iceland, attending the European Control Conference! It...',
+          description: "",
+          section: "News",},{id: "teachings-mech-412-system-dynamics-and-control",
+          title: 'MECH 412 - System Dynamics and Control',
+          description: "Modelling of physical linear time-invariant systems using transfer functions. Transient and steady-state response specifications. State space representation of systems. Frequency-response characterization. Stability. Feedback control systems. PID controller design. Frequency response design methods. Lead, lag and PID compensators.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/mech412/";
+            },},{id: "teachings-mech-513-control-systems",
+          title: 'MECH 513 - Control Systems',
+          description: "State-space modelling and related linear algebra. Controllability and observability of linear time-invariant systems and corresponding tests, system realizations. Stability including bounded-Input-Bounded-Output (BIBO), internal, and Lyapunov stability. Linear state feedback control, state observers, optimal control, optimal estimation, and robust control.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/mech513/";
+            },},{id: "teachings-mech-642-advanced-dynamics",
+          title: 'MECH 642 - Advanced Dynamics',
+          description: "Variational methods. Hamilton's principle and equations of motion of engineering systems. Lagrangian formulations for discrete systems. Methods of discretizing continuous systems. Rigid body dynamics. Dynamic behaviour of linear and nonlinear systems. Response of engineering systems to deterministic inputs by classical methods. Stability of linear and nonlinear systems.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/mech642/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/forbes_cv.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%61%6D%65%73.%72%69%63%68%61%72%64.%66%6F%72%62%65%73@%6D%63%67%69%6C%6C.%63%61", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/james-forbes-72921390", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/jrforbes", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=PVJW68EAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1987-9268", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> <script defer src="/assets/al_email_protect/js/email-protect.js"></script> </body> </html>
