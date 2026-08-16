@@ -3,10 +3,10 @@ layout: course
 title: MECH 412 - System Dynamics and Control
 description: Modelling of physical linear time-invariant systems using transfer functions. Transient and steady-state response specifications. State space representation of systems. Frequency-response characterization. Stability. Feedback control systems. PID controller design. Frequency response design methods. Lead, lag and PID compensators.
 instructor: Prof. James Richard Forbes
-# year: 2025
-# term: Fall
-# location: WONG 120
-# time: Tuesday & Thursday, 10:05 AM - 11:25 AM
+# year:
+# term:
+# location:
+# time:
 course_id: mech-412-system-dynamics-control
 
 schedule:
@@ -122,7 +122,7 @@ Students are expected to be comfortable with:
 
 ### Python Resources
 
-The course makes extensive use of Python and the `python-control` package.
+The course makes extensive use of Python and the python-control package.
 
 Useful resources:
 

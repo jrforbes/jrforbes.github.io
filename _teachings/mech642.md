@@ -18,12 +18,12 @@ schedule:
 - week: 1
   date: Sep/Jan
   topic: Kinematics I
-  description: Physical vectors, reference frames, vectrices, and vector algebra.
+  description: Physical vectors, reference frames, and direction cosine matrices (DCMs).
 
 - week: 2
   date: Sep/Jan
   topic: Kinematics II
-  description: Direction cosine matrices (DCMs) and coordinate transformations.
+  description: The Transport Theorem.
 
 - week: 3
   date: Sep/Jan
@@ -33,7 +33,7 @@ schedule:
 - week: 4
   date: Sep/Jan
   topic: Angular Velocity Kinematics
-  description: Transport theorem and Poisson's equation.
+  description: Poisson's equation. 
 
 - week: 5
   date: Oct/Feb
@@ -85,7 +85,7 @@ schedule:
 ---
 
 
-##### Course Overview
+### Course Overview
 
 MECH 642 introduces advanced kinematics and dynamics in three dimensions. Students will learn how to derive the equations of motion of systems composed of particles and rigid bodies using the Newton-Euler approach, Lagrange's equation, Hamilton's (extended) principle, and the Gibbs-Appell equations.
 
@@ -107,7 +107,7 @@ Topics include:
 - Hamilton's principle
 - Stability theory
 
-##### Prerequisite and Corequisite Courses
+### Prerequisite and Corequisite Courses
 
 There are no official prerequisite or corequisite courses. However, students are expected to be comfortable with:
 
@@ -117,7 +117,7 @@ There are no official prerequisite or corequisite courses. However, students are
 - Classical mechanics
 - Python programming
 
-##### Python Resources
+### Python Resources
 
 Assignments require computational work in Python.
 
@@ -128,7 +128,7 @@ Useful resources:
 - [NumPy 100 Exercises](https://github.com/rougier/numpy-100)
 - [SciPy Lectures](https://scipy-lectures.org/intro/)
 
-##### Learning Outcomes
+### Learning Outcomes
 
 By the end of the course, students will be able to:
 
@@ -140,17 +140,17 @@ By the end of the course, students will be able to:
 - Assess stability using Lyapunov methods and LaSalle's invariant set theorem.
 - Apply computational tools to solve advanced dynamics problems.
 
-##### Textbooks
+### Textbooks
 
 There is no required textbook. However, lectures are based on the following references.
 
 - G. M. T. D'Eleutario and G. R. Heppler, _Newton's Second Law And All That_. (In preparation) Cambridge University Press, 2011.
-- D. S. Bernstein, _Geometry, Kinematics, Statics, and Dynamics_. Princeton University Press, 2013.
+- D. S. Bernstein, _Geometry, Kinematics, Statics, and Dynamics_. (In preparation) Princeton University Press, 2013.
 - P. C. Hughes, _Spacecraft Attitude Dynamics_, 2nd ed. Mineola, NY: Dover, 2004.
 - F. L. Markley and J. L. Crassidis, _Fundamentals of Spacecraft Attitude Determination and Control_. New York, NY: Springer, 2014.
 - A. H. J. de Ruiter, C. J. Damaren, and J. R. Forbes, _Spacecraft Dynamics and Control: An Introduction_. West Sussex, UK: John Wiley & Sons, Ltd., 2013.
 
-##### Additional Resources
+### Additional Resources
 
 - N. J. Kasdin and D. A. Paley, _Engineering Dynamics: A Comprehensive Introduction_. Princeton, NJ: Princeton University Press, 2011.
 - D. T. Greenwood, _Advanced Dynamics_. Cambridge University Press, 2003.

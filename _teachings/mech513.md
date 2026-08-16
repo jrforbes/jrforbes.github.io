@@ -66,13 +66,13 @@ schedule:
 
   - week: 10
     date: Nov/Mar
-    topic: Optimal Control
-    description: Problem formulation, linear quadratic regulator (LQR) design.
+    topic: The Generalized Plant
+    description: Motivation, performance channel, exogenous input channel, examples.
 
   - week: 11
     date: Nov/Mar
-    topic: Optimal Estimation
-    description: Linear quadratic estimation (LQE).
+    topic: Optimal Control
+    description: Problem formulation, linear quadratic regulator (LQR) design.
 
   - week: 12
     date: Nov/Mar
@@ -92,7 +92,7 @@ schedule:
     description: Uncertainty modelling, robust stability, and robust performance.
 ---
 
-#### Course Overview
+### Course Overview
 
 MECH 513 introduces modern control theory using state-space methods. Students develop mathematical tools for the analysis and synthesis of dynamical systems, with particular emphasis on controllability, observability, stability analysis, state feedback control, state estimation, optimal control, and robust control.
 
@@ -105,12 +105,10 @@ Topics include:
 - State-feedback control and pole placement
 - State observers
 - Optimal control and estimation
-- Linear Quadratic Regulator (LQR)
-- Linear Quadratic Gaussian (LQG)
 - H₂ and H∞ control
 - Robust stability and robust performance
 
-#### Prerequisite and Corequisite Courses
+### Prerequisite and Corequisite Courses
 
 Students are expected to be comfortable with:
 
@@ -127,9 +125,9 @@ Students are expected to be comfortable with:
 
 No formal prerequisite.
 
-#### Python Resources
+### Python Resources
 
-The course makes extensive use of Python, the python-control package, and CVXPY.
+The course makes extensive use of Python, the python-control package, and cvxpy.
 
 Useful resources:
 
@@ -142,7 +140,7 @@ Useful resources:
 - [MECH 412 Code Repository](https://github.com/jrforbes/mech_412_code)
 - [MECH 513 Code Repository](https://github.com/jrforbes/mech_513_code)
 
-#### Learning Outcomes
+### Learning Outcomes
 
 By the end of the course, students will be able to:
 
@@ -153,7 +151,7 @@ By the end of the course, students will be able to:
 - Analyze uncertainty, robustness, and performance of feedback control systems.
 - Apply modern computational tools to control-system analysis and design.
 
-#### Textbooks
+### Textbooks
 
 There is no required textbook. However, lectures are based on the following references.
 
@@ -162,7 +160,7 @@ There is no required textbook. However, lectures are based on the following refe
 - R. L. Williams and D. A. Lawrence, _Linear State-Space Control Systems_. Hoboken, NJ: John Wiley & Sons, Inc., 2007.
 - K. Zhou and J. C. Doyle, _Essentials of Robust Control_. Upper Saddle River, NJ: Prentice Hall, 1998.
 
-#### Additional Resources
+### Additional Resources
 
 - [Randy Beard Control Book](https://github.com/randybeard/controlbook_public)
 - [University of Michigan Control Tutorials (CTMS)](http://ctms.engin.umich.edu/CTMS)
