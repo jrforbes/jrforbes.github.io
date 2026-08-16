@@ -36,32 +36,32 @@ schedule:
   description: Angular velocity, the Transport Theorem, Poisson's equation, the relationship between position, velocity, and acceleration.
 
 - week: 5
-  date: Jan/Sep
+  date: Oct/Feb
   topic: Newton's Laws Applied to a Single Particle
   description: Fundamental laws governing the motion of a single particle.
 
 - week: 6
-  date: Feb/Oct
+  date: Oct/Feb
   topic: Forces
   description: Gravitational, spring, damping, friction, and drag forces.
 
 - week: 7
-  date: Jan/Sep
+  date: Oct/Feb
   topic: Newton's Laws Applied to Many Particles
   description: Fundamental laws governing the motion of a single particle.
 
 - week: 8
-  date: Feb/Oct
+  date: Oct/Feb
   topic: Impulse and Momentum
   description: Linear impulse-momentum relationships and applications.
 
 - week: 9
-  date: Feb/Oct
+  date: Nov/Mar
   topic: Work and Energy
   description: Work-energy methods and conservation principles.
 
 - week: 10
-  date: Mar/Nov
+  date: Nov/Mar
   topic: Power and Energy Methods
   description: Energy transfer and engineering applications.
 
@@ -82,88 +82,6 @@ schedule:
 
 ---
 
-<!--
-- week: 13
-  date: Dec/Apr
-  topic: Review and Integration
-  description: Comprehensive review of kinematics, particle dynamics, energy methods, and rigid-body dynamics.
-  >
-
-<!--
-schedule:
-- week: 1
-  date: Jan/Sep
-  topic: Vectors, Reference Frames, and DCMs
-  description: Physical vectors, reference frames, and direction cosine matrices (DCMs).
-
-- week: 2
-  date: Jan/Sep
-  topic: Vector Differentiation and the Transport Theorem
-  description: Rates of change of physical vectors in different reference frames and the Transport Theorem. 
-
-- week: 3
-  date: Jan/Sep
-  topic: Kinematics
-  description: Position, velocity, acceleration, and coordinate representations.
-
-- week: 4
-  date: Jan/Sep
-  topic: Newton's Laws Applied to a Single Particle
-  description: Fundamental laws governing the motion of a single particle.
-
-- week: 5
-  date: Feb/Oct
-  topic: Forces
-  description: Gravitational, spring, damping, friction, and drag forces.
-
-- week: 6
-  date: Jan/Sep
-  topic: Newton's Laws Applied to Many Particles
-  description: Fundamental laws governing the motion of a single particle.
-
-- week: 7
-  date: Feb/Oct
-  topic: Impulse and Momentum
-  description: Linear impulse-momentum relationships and applications.
-
-- week: 8
-  date: Feb/Oct
-  topic: Work and Energy
-  description: Work-energy methods and conservation principles.
-
-- week: 9
-  date: Mar/Nov
-  topic: Power and Energy Methods
-  description: Energy transfer and engineering applications.
-
-- week: 10
-  date: Mar/Nov
-  topic: Mass Properties of Rigid Bodies
-  description: Centers of mass, moments of inertia, and the parallel-axis theorem.
-
-- week: 11
-  date: Mar/Nov
-  topic: Rigid-Body Kinematics
-  description: Translational and rotational motion of rigid bodies.
-
-- week: 12
-  date: Mar/Nov
-  topic: Rigid-Body Dynamics
-  description: Newton's laws applied to rigid-body motion.
-
-- week: 13
-  date: Apr/Dec
-  topic: Euler's Equation
-  description: Equations governing rotational dynamics.
-  -->
-
-
-<!--
-- week: 13
-  date: Apr/Dec
-  topic: Applications of Rigid-Body Dynamics
-  description: Engineering applications and integrated examples.
--->
 
 ### Course Overview
 
