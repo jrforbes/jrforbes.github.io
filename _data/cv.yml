@@ -1,189 +1,193 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  name: James Richard Forbes
+  label: Professor, William Dawson Scholar
+  email: james "dot" richard "dot" forbes "at" mcgill "dot" ca
+  location: Montreal, QC, Canada
+  summary: >
+    Professor of Mechanical Engineering specializing in navigation and control. Research focuses include navigation, optimal and robust control, optimization, system identification and data-driven modelling, and field robotics.
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Macdonald Engineering Building, 817 Sherbrooke St. West
+    city: Montreal
+    region: QC
+    postalCode: H3A 0C3
+    countryCode: CA
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: McGill University, Department of Mechanical Engineering
+        position: Professor
+        location: Montreal, QC, Canada
+        start_date: 2025
+        end_date: Present
+
+      - company: McGill University, Department of Mechanical Engineering
+        position: Associate Professor
+        location: Montreal, QC, Canada
+        start_date: 2018
+        end_date: 2025
+
+      - company: McGill University, Department of Mechanical Engineering
+        position: Assistant Professor
+        location: Montreal, QC, Canada
+        start_date: 2015
+        end_date: 2018
+
+      - company: University of Michigan, Department of Aerospace Engineering
+        position: Assistant Professor
+        location: Ann Arbor, MI, USA
+        start_date: 2013
+        end_date: 2015
+
+      - company: McGill University, Department of Mechanical Engineering
+        position: Assistant Professor
+        location: Montreal, QC, Canada
+        start_date: 2011
+        end_date: 2013
+
+      - company: Mila – Quebec Artificial Intelligence Institute
+        position: Associate Academic Member
+        location: Montreal, QC, Canada
+        start_date: 2025
+        end_date: Present
+
+      - company: Centre for Intelligent Machines (CIM)
+        position: Full Member
+        location: Montreal, QC, Canada
+        start_date: 2015
+        end_date: Present
+
+      - company: GERAD
+        position: Member
+        location: Montreal, QC, Canada
+        start_date: 2016
+        end_date: Present
+
+      - company: Centre de Recherches Mathématiques (CRM)
+        position: Member
+        location: Montreal, QC, Canada
+        start_date: 2022
+        end_date: Present
+
+      - company: Trottier Institute for Sustainability in Engineering and Design (TISED)
+        position: Member
+        location: Montreal, QC, Canada
+        start_date: 2022
+        end_date: Present
+
+    Education:
+      - institution: University of Toronto Institute for Aerospace Studies
+        location: Toronto, ON, Canada
+        area: Aerospace Science and Engineering
+        studyType: Ph.D.
+        start_date: 2008
+        end_date: 2011
         highlights:
-          - Relativity
-          - Description 2.
+          - "Thesis: Extensions of Input-Output Stability Theory and the Control of Aerospace Systems."
+          - Winner of the 2011 G.N. Patterson Award for the most outstanding PhD thesis at UTIAS.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - institution: University of Toronto Institute for Aerospace Studies
+        location: Toronto, ON, Canada
+        area: Aerospace Science and Engineering
+        studyType: M.A.Sc.
+        start_date: 2006
+        end_date: 2008
+
+      - institution: University of Waterloo
+        location: Waterloo, ON, Canada
+        area: Mechanical Engineering (Honours, Co-op)
+        studyType: B.A.Sc.
+        start_date: 2001
+        end_date: 2006
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Dean's Honours, with distinction.
 
     Awards:
-      - title: Nobel Prize in Physics
+      - title: Donald L. Mordell EUS Teaching Excellence Award
         authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+          - McGill Engineering Undergraduate Society
+        date: 2026-04-02
+        awarder: McGill Engineering Undergraduate Society
+        summary: Awarded for excellence in teaching within the Faculty of Engineering.
 
-      - title: Max Planck Medal
+      - title: International Conference on Robotics and Automation Best Paper Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - IEEE Robotics and Automation Society
+        date: 2025-05-22
+        awarder: IEEE Robotics and Automation Society
+        summary: With Zi Cong Guo and Prof. Timothy Barfoot won the Best Paper Award for the paper entitled _Marginalizing and Conditioning Gaussians onto Linear Approximations of Smooth Manifolds with Applications in Robotics_. 
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Samuel and Ida Fromson Outstanding Teaching Award in Engineering
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - McGill University
+        date: 2024-04-24
+        awarder: McGill University
+        summary: Faculty-wide teaching award recognizing outstanding educational contributions.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Carrie M. Derick Award for Graduate Supervision and Teaching
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - McGill University
+        date: 2020-04
+        awarder: McGill University
+        summary: Award recognizing excellence in graduate supervision and teaching.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Engineering Class of 1944 Outstanding Teaching Award
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - McGill University
+        date: 2017-05-31
+        awarder: McGill University
+        summary: Award recognizing excellence in engineering education.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: MAME Professor of the Year
+        authors:
+          - McGill Association of Mechanical Engineers
+        date: 2016-04-07
+        awarder: McGill Association of Mechanical Engineers
+        summary: Student-selected award recognizing exceptional teaching and mentorship.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: G. N. Patterson Award
+        authors:
+          - University of Toronto Institute for Aerospace Studies
+        date: 2011-11-03
+        awarder: University of Toronto Institute for Aerospace Studies
+        summary: Awarded to the most outstanding PhD graduate of UTIAS.
 
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
+      - name: Licensed Professional Engineer
+        date: 2017-07-21
+        issuer: Professonal Engineers Ontario
+        icon: fa-solid fa-tag
+      - name: Certificate of Proficiency in Amateur Radio (Basic)
+        date: 2017-06-16
+        issuer: ISED Canada
         icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Funding:
+      - label: Natural Sciences and Engineering Research Council of Canada (NSERC)
+        details: Discovery, Alliance, CREATE, Connect, and Engauge.
+      - label: Fonds de recherche du Quebec - Nature et technologies (FRQNT)
+        details: New Reseracher, Team, and NOVA.
+      - label: Mitacs
+        details: Accelerate.
+      - label: IVADO
+        details: Fundemental Research program. 
+      - label: CIFAR 
+        details: AI Catalyst.
+      - label: Canadian Foundation for Innovation
+        details: John R. Evans Leaders Fund (JELF) and Leaders Opportunity Fund.
+      - label: Research Contract with National Research Council of Canada
+        details: Contract. 
+      - label: Canadian Space Agency
+        details: Flights and Fieldwork for the Advancement of Science and Technology
+    
+    Editorial Duties:
+      - label: International Journal of Robotics Reserach (IJRR)
+        details: Associate Editor (2023 - 2024), Senior Editor (2204 - Present).
+      - label: International Conference on Intelligent Robots and Systems (IROS)
+        details: Associate Editor (2023 - 2025).
+      - label: Conference on Decision and Control
+        details: Associate Editor (2013 - Present). 
+      - label: American Control Conference
+        details: Associate Editor (2013 - Present). 
+      
