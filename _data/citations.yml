@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-24'
 papers:
   PVJW68EAAAAJ:-FonjvnnhkoC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: Heading Estimation Using Ultra-Wideband Received Signal Strength and Gaussian Processes
     year: '2021'
   PVJW68EAAAAJ:-f6ydRqryjwC:
-    citations: 57
+    citations: 58
     title: Modeling of spherical robots rolling on generic surfaces
     year: '2015'
   PVJW68EAAAAJ:08ZZubdj9fEC:
@@ -130,7 +130,7 @@ papers:
     title: Continuous-time norm-constrained Kalman filtering
     year: '2014'
   PVJW68EAAAAJ:7T2F9Uy0os0C:
-    citations: 84
+    citations: 85
     title: Relative position estimation in multi-agent systems using attitude-coupled range measurements
     year: '2021'
   PVJW68EAAAAJ:8AbLer7MMksC:
@@ -166,7 +166,7 @@ papers:
     title: Elastostatics of a Full-mobility PKM with
     year: Unknown Year
   PVJW68EAAAAJ:AXPGKjj_ei8C:
-    citations: 312
+    citations: 313
     title: 'DReCon: data-driven responsive control of physics-based characters'
     year: '2019'
   PVJW68EAAAAJ:Aul-kAQHnToC:
@@ -218,7 +218,7 @@ papers:
     title: Linear-and linear-matrix-inequality-constrained state estimation for nonlinear systems
     year: '2019'
   PVJW68EAAAAJ:Dip1O2bNi0gC:
-    citations: 4
+    citations: 5
     title: 'Decentralized state estimation: An approach using pseudomeasurements and preintegration'
     year: '2024'
   PVJW68EAAAAJ:EUQCXRtRnyEC:
@@ -226,7 +226,7 @@ papers:
     title: "A comparative study of input\u2013output stability results"
     year: '2017'
   PVJW68EAAAAJ:EYYDruWGBe4C:
-    citations: 43
+    citations: 44
     title: Multi-robot relative pose estimation and IMU preintegration using passive UWB transceivers
     year: '2024'
   PVJW68EAAAAJ:EkHepimYqZsC:
@@ -454,7 +454,7 @@ papers:
     title: Navigation and control of unconventional VTOL UAVs in forward-flight with explicit wind velocity estimation
     year: '2020'
   PVJW68EAAAAJ:Se3iqnhoufwC:
-    citations: 390
+    citations: 391
     title: 'Spacecraft dynamics and control: an introduction'
     year: '2012'
   PVJW68EAAAAJ:SeFeTyx0c_EC:
@@ -610,7 +610,7 @@ papers:
     title: Noncolocated Adaptive Control of a Dual Rigid-Body Spacecraft with Flexible Coupling
     year: Unknown Year
   PVJW68EAAAAJ:ZuybSZzF8UAC:
-    citations: 105
+    citations: 106
     title: 'Finite-Horizon LQR Control of Quadrotors on '
     year: '2020'
   PVJW68EAAAAJ:_B80troHkn4C:
@@ -690,7 +690,7 @@ papers:
     title: Generalized Euler sequences revisited
     year: '2015'
   PVJW68EAAAAJ:eJXPG6dFmWUC:
-    citations: 178
+    citations: 179
     title: LMI properties and applications in systems, stability, and control theory
     year: '2019'
   PVJW68EAAAAJ:eMMeJKvmdy0C:
